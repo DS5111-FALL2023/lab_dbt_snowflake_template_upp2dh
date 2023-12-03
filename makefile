@@ -15,6 +15,10 @@ init:
 .PHONY: seed
 seed:
 	cp sample_seed/NASA_Facilities.csv ds5111_lab_dbt_snow/seeds/
+	cp sample_seed/Course_Info.csv ds5111_lab_dbt_snow/seeds/
+	cp sample_seed/Instructors.csv ds5111_lab_dbt_snow/seeds/
+	cp sample_seed/Learning_Outcome.csv ds5111_lab_dbt_snow/seeds/
+	cp sample_seed/Teaching_Assignments.csv ds5111_lab_dbt_snow/seeds/
 	. env/bin/activate; cd ds5111_lab_dbt_snow; \
 		dbt seed
 
