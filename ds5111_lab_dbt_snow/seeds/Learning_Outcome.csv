@@ -1,4 +1,4 @@
-MNEMONIC,LEARNING_OUTCOME
+ï»¿MNEMONIC,LEARNING_OUTCOME
 ds_tech_bootcamp,Research documentation on your own as a first line of action
 ds_tech_bootcamp,Describe the components of a computer
 ds_tech_bootcamp,Explain the scales of computational power and scales of data
@@ -89,14 +89,14 @@ ds5110,Understand the concepts behind HDFS
 ds5110,Understand the concepts behind Hive.
 ds5110,Have some familiarity with running PySpark in a Databricks notebook
 ds5110,Understand how EC2 and S3 are used for computing and storage; respectively
-ds5110,Demonstrate the steps for configuring and launching an AWS EC2 instance
+ds5110,Demonstrate the steps for configuring and launchingÂ an AWS EC2 instance
 ds5110,Understand the capabilities of Amazon Glue and Athena
 ds5110,Understand the concepts and use cases behind Apache Kafka
 ds5110,Create and configure an Amazon S3 bucket
 ds5110,Apply the concepts behind streaming systems
 ds5110,Execute the Spark Streaming library
 ds5110,Compute analytics using Spark Streaming
-ds5110,Explain the properties of data lakes and data lakehouses
+ds5110,Explain the properties ofÂ data lakes and data lakehouses
 ds5110,Explain the shortcomings of data lakes; and how data lakehouses address these shortcomings
 ds5110,Work with Apache Delta lakes to implement their salient features (create; delete; update; conditional update; time travel)
 ds5110,Implement GraphX and GraphFrames in Spark
@@ -158,7 +158,7 @@ ds6030,Use an SVM for classification and regression in R
 ds6030,Use K-Means clustering to explore new data in R
 ds6030,Use hierarchical clustering to create and evaluate clusters in R
 ds6040,Probability review
-ds6040,Use the elements of Bayes theorem in problem solving
+ds6040,Use the elements of BayesÂ theorem in problem solving
 ds6040,Use univariate conjugate priors to analytically obtain the posterior distribution
 ds6040,Use multivariate conjugate priors to analytically obtain the posterior distribution
 ds6040,Use non-informative priors to analytically obtain the posterior distribution

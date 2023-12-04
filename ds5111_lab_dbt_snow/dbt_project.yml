@@ -37,3 +37,8 @@ models:
       +materialized: view
     nasa:
       +materialized: view
+    erd:
+      +materialized: view
+    usecases:
+      +materialized: view
+

@@ -1,0 +1,67 @@
+
+version: 2
+
+models:
+  - name: erd_teaching_assignments
+    description: "teaching assignment table"
+    columns:
+      - name: MNEMONIC
+        description: "A primary key for this table"
+        tests:
+          - not_null
+      - name: TERM
+        description: "A primary key for this table"
+        tests:
+          - not_null
+      - name: INSTRUCTOR_FIRST_NAME
+        description: "A primary key for this table"
+        tests:
+          - not_null
+      - name: INSTRUCTOR_LAST_NAME
+        description: "A primary key for this table"
+        tests:
+          - not_null
+
+models:
+  - name: erd_course_info
+    description: "course information table"
+    columns:
+      - name: MNEMONIC
+        description: "A primary key for this table"
+        tests:
+          - unique
+          - not_null
+      - name: NAME
+        description: "name of the course"
+      - name: DESCRIPTION_SHORT
+        description: "A short description of the course"
+      - name: ACTIVE
+        description: "Active or not"
+        
+models:
+  - name: erd_instructors 
+    description: "instructor information table"
+    columns:
+      - name: INSTRUCTOR_FIRST_NAME
+        description: "A primary key for this table"
+        tests:
+          - not_null
+      - name: INSTRUCTOR_LAST_NAME
+        description: "A primary key for this table"
+        test:
+          - not_null
+      - name: EMPLOYEE_STATUS
+        description: "Employee or Not-Employee"
+
+models:
+  - name: erd_learning_outcomes 
+    description: "Learning outcomes table"
+    columns:
+      - name: MNEMONIC
+        description: "Course mnemonic table"
+      - name: LEARNING_OUTCOME
+        description: "The primary key for this table"
+        test:
+          - unique
+          - not_null
+        

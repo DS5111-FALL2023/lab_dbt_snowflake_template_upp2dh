@@ -1,0 +1,7 @@
+{{ config(materialized='view') }}
+
+SELECT INSTRUCTOR_FIRST_NAME, INSTRUCTOR_LAST_NAME, EMPLOYEE_STATUS
+FROM ERD_INSTRUCTORS
+WHERE EMPLOYEE_STATUS = 'Not Employee'
+-- DO NOT USE ; in these sql files
+
